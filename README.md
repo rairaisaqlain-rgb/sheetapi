@@ -1,16 +1,29 @@
+<div align="center">
+
 # SheetAPI
 
-Turn a Google Sheet or Excel file into a read-only REST API.
+### Spreadsheet → `GET /v1/rows`
 
-**Offer:** Free 1 sheet · Pro $19/mo · Team $49/mo.
-**Buyer:** US small ops teams and no-code builders who live in Sheets.
+[Download ZIP](https://pannki.com/sheetapi.zip) · [Landing](./apps/web/index.html)
 
-## Repo map
+<img src="https://img.shields.io/badge/founders-1_project-2ea44f?style=for-the-badge" />
+<img src="https://img.shields.io/badge/day_181-$12-black?style=for-the-badge" />
 
-- `apps/api` — route stub
-- `apps/web` — landing
-- `docs/OFFER.md`
+</div>
 
-## Idea
+---
 
-POST a sheet URL → get `GET /v1/rows` JSON. Auth later.
+## Overview
+
+Read-only JSON from a sheet. Founders: one project, six months. Not an open proxy — request cap stays even on free.
+
+```json
+GET /v1/rows
+{ "ok": true, "rows": [{ "id": 1, "status": "demo" }] }
+```
+
+## Download
+
+[https://pannki.com/sheetapi.zip](https://pannki.com/sheetapi.zip)
+
+*SheetAPI — KERNELX lab*
