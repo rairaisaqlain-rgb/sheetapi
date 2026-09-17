@@ -1,4 +1,4 @@
-# Offer
+# SheetAPI offer
 
-Pain: exporting CSV every time a dashboard needs data.
-MVP: one public JSON endpoint from a published sheet. No write-back in v1.
+Download: http://pannki.com/sheetapi.zip
+Founders: 1 project / 180 days. Then $12/mo.
