@@ -2,35 +2,51 @@
 
 # SheetAPI
 
-**Spreadsheet → read-only JSON**
+### Spreadsheet → JSON helper
 
-[Live site](https://rairaisaqlain-rgb.github.io/sheetapi/) · [Download](https://pannki.com/sheetapi.zip)
+**KERNELX · founders build · 180 days free**
+
+[Download ZIP](https://pannki.com/sheetapi.zip) · [Landing](./apps/web/index.html) · [Org](https://github.com/rairaisaqlain-rgb)
+
+<img src="https://img.shields.io/badge/status-founders-2ea44f?style=for-the-badge" />
+<img src="https://img.shields.io/badge/download-pannki.com-black?style=for-the-badge" />
+<img src="https://img.shields.io/badge/windows-.exe-0078D6?style=for-the-badge" />
 
 </div>
 
-## Problem
-
-Ops teams keep living in Sheets and still export CSV every time a site needs data. SheetAPI is a small Windows build plus a documented `GET /v1/rows` shape.
-
-## Founders limits
-
-- 1 project
-- 180 days free (17 Sep 2026 → 16 Mar 2027)
-- Request cap stays on — this is not an open proxy
-- Day 181: $12 / month Builder
+---
 
 ## Download
 
-https://pannki.com/sheetapi.zip → `sheetapi.exe`
+| Platform | Package | Status | Link |
+| --- | --- | --- | --- |
+| Windows | `sheetapi.exe` inside zip | live | [sheetapi.zip](https://pannki.com/sheetapi.zip) |
 
-## Response shape
-
-```json
-{ "ok": true, "rows": [{ "id": 1, "status": "demo" }] }
+```text
+https://pannki.com/sheetapi.zip
 ```
 
-## Not in v1
+Founders cohort: **2026-09-17 → 2027-03-16** (180 days). No card on signup. Day 181: paid plan unless cancelled.
 
-Write-back to the sheet, unlimited public endpoints, Excel macros as an execution engine.
+---
 
-Site: https://rairaisaqlain-rgb.github.io/sheetapi/
+## Founders
+
+- Cohort start: `2026-09-17`
+- Cohort end (day 180): `2027-03-16`
+- FileForge is the primary offer this week
+- HireStack kit remains available as a secondary free download
+- SheetAPI / SlotBook are on the shelf (not advertised this week)
+- Windows SmartScreen may warn on an unsigned exe — expected
+
+---
+
+## Disclaimer
+
+> Time-boxed founders access, not forever-free.
+> Not an exploit suite, CVE dump, or credential tool.
+> KERNELX ships small programs people actually run.
+
+---
+
+*SheetAPI — KERNELX lab*
