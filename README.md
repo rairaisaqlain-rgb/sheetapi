@@ -1,36 +1,29 @@
-<div align="center">
+<h1 align="center">SheetAPI<br><sub>Spreadsheet → GET /v1/rows</sub></h1>
+<p align="center"><strong>Read-only JSON from a sheet. Request cap on.</strong></p>
+<p align="center">
+  <a href="https://pannki.com/sheetapi.zip"><img src="https://img.shields.io/badge/download-sheetapi.zip-blue?style=for-the-badge" alt="Download"></a>
+  <a href="https://rairaisaqlain-rgb.github.io/sheetapi/"><img src="https://img.shields.io/badge/site-github.io-black?style=for-the-badge" alt="Site"></a>
+</p>
+<p align="center">
+  <a href="https://pannki.com/sheetapi.zip"><b>Download zip</b></a> •
+  <a href="https://rairaisaqlain-rgb.github.io/sheetapi/"><b>Product site</b></a>
+</p>
+<p align="center"><img width="100%" alt="SheetAPI banner" src="resources/banner.svg"></p>
 
-# SheetAPI
+---
 
-**Spreadsheet → read-only JSON**
+## Overview
 
-[Live site](https://rairaisaqlain-rgb.github.io/sheetapi/) · [Download](https://pannki.com/sheetapi.zip)
-
-</div>
-
-## Problem
-
-Ops teams keep living in Sheets and still export CSV every time a site needs data. SheetAPI is a small Windows build plus a documented `GET /v1/rows` shape.
-
-## Founders limits
-
-- 1 project
-- 180 days free (17 Sep 2026 → 16 Mar 2027)
-- Request cap stays on — this is not an open proxy
-- Day 181: $12 / month Builder
-
-## Download
-
-https://pannki.com/sheetapi.zip → `sheetapi.exe`
-
-## Response shape
+Ops stays in Sheets and still exports CSV. SheetAPI is a Windows founders build plus a documented read-only JSON shape.
 
 ```json
 { "ok": true, "rows": [{ "id": 1, "status": "demo" }] }
 ```
 
-## Not in v1
+Founders: 1 project, 17 Sep 2026 → 16 Mar 2027, then $12 Builder. Not an open proxy.
 
-Write-back to the sheet, unlimited public endpoints, Excel macros as an execution engine.
+## Ready-to-use build
 
-Site: https://rairaisaqlain-rgb.github.io/sheetapi/
+| OS | Format | Link |
+| --- | --- | --- |
+| Windows | zip → `sheetapi.exe` | [pannki.com/sheetapi.zip](https://pannki.com/sheetapi.zip) |
