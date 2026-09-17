@@ -1,12 +1,11 @@
-html,body{margin:0;background:#f8fafc;color:#0f172a;font-family:ui-monospace,Menlo,monospace}
-.nav,.lede,h1,.btn,footer,.kicker{font-family:system-ui,sans-serif}
-.nav{display:flex;justify-content:space-between;padding:18px 24px}
-.brand{font-weight:800;text-decoration:none;color:inherit}
-nav a{margin-left:16px;color:#0f766e}
-.hero{padding:48px 24px;max-width:820px}
-h1{font-size:clamp(32px,6vw,52px)}
-.lede{color:#64748b;font-size:18px}
-.btn{display:inline-block;margin:20px 0;background:#0f766e;color:#fff;text-decoration:none;padding:14px 18px;font-weight:700}
-pre{background:#0f172a;color:#d1fae5;padding:16px;overflow:auto}
-footer{padding:24px;color:#64748b}
-.kicker{letter-spacing:.08em;text-transform:uppercase;font-size:12px;color:#0f766e}
+html,body{margin:0;background:#061411;color:#d7f5ea;font-family:IBM Plex Sans,system-ui,sans-serif}
+.nav{display:flex;justify-content:space-between;padding:22px 7vw}
+nav a{color:#7dcdb3;margin-left:18px;text-decoration:none}
+.pill{border:1px solid #1f6f5b;padding:7px 12px}
+.hero{padding:12vh 7vw}
+h1{font-size:clamp(40px,7vw,80px);letter-spacing:-.04em;line-height:.95}
+.lede{color:#7dcdb3;max-width:520px}
+.kicker{letter-spacing:.16em;text-transform:uppercase;font-size:12px;color:#3dd6b0}
+.btn{display:inline-block;margin:24px 0;background:#3dd6b0;color:#061411;text-decoration:none;padding:14px 18px;font-weight:700}
+pre{font-family:IBM Plex Mono,monospace;background:#0b1f1b;padding:16px;max-width:560px;overflow:auto;border:1px solid #1f6f5b}
+footer{padding:24px 7vw 40px;color:#7dcdb3}
