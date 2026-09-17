@@ -2,28 +2,35 @@
 
 # SheetAPI
 
-### Spreadsheet → `GET /v1/rows`
+**Spreadsheet → read-only JSON**
 
-[Download ZIP](https://pannki.com/sheetapi.zip) · [Landing](./apps/web/index.html)
-
-<img src="https://img.shields.io/badge/founders-1_project-2ea44f?style=for-the-badge" />
-<img src="https://img.shields.io/badge/day_181-$12-black?style=for-the-badge" />
+[Live site](https://rairaisaqlain-rgb.github.io/sheetapi/) · [Download](https://pannki.com/sheetapi.zip)
 
 </div>
 
----
+## Problem
 
-## Overview
+Ops teams keep living in Sheets and still export CSV every time a site needs data. SheetAPI is a small Windows build plus a documented `GET /v1/rows` shape.
 
-Read-only JSON from a sheet. Founders: one project, six months. Not an open proxy — request cap stays even on free.
+## Founders limits
 
-```json
-GET /v1/rows
-{ "ok": true, "rows": [{ "id": 1, "status": "demo" }] }
-```
+- 1 project
+- 180 days free (17 Sep 2026 → 16 Mar 2027)
+- Request cap stays on — this is not an open proxy
+- Day 181: $12 / month Builder
 
 ## Download
 
-[https://pannki.com/sheetapi.zip](https://pannki.com/sheetapi.zip)
+https://pannki.com/sheetapi.zip → `sheetapi.exe`
 
-*SheetAPI — KERNELX lab*
+## Response shape
+
+```json
+{ "ok": true, "rows": [{ "id": 1, "status": "demo" }] }
+```
+
+## Not in v1
+
+Write-back to the sheet, unlimited public endpoints, Excel macros as an execution engine.
+
+Site: https://rairaisaqlain-rgb.github.io/sheetapi/
